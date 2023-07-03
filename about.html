@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">The Huckleberry</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images2/home.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s6">
+            <section class="section #1e1c2a">
+                <div class="container">
+                    <h2 class="header">About Us</h2>
+                    <p>Huckleberry's signature blend is composed of 70% Arabica coffee that is imported from Brazil and 30% Robusta coffee from Sumatra. This combination gives you coffee that is very flavorful and aromatic with chocolaty and fruity notes. Many are also hooked with their best-selling drink, the Vietnamese Latte. It is made from Nguyen beans from Vietnam. These beans have rich and strong flavor that blends beautifully with sweetened milk giving you a rich and flavorful coffee with hints of chocolaty tones.</p>
+                    <br>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, recusandae vel. Sint nostrum ab deserunt est, eaque laudantium quibusdam voluptas autem aliquid veritatis nisi quaerat corrupti. Inventore totam libero rem!</p>
+                </div>
+            </section>
+        </div>
+        <div class="col s6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images2/3.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images2/about.jpg" alt="">
+        </div>
+    </div>
+ 
+
+
+
+
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+    });
+    //Materialbox init
+    $(".materialboxed").materialbox({
+            inDuration: 1000,
+            outDuration:1000
+        });
+        
+    </script>
+</body>
+</html>
